@@ -1,0 +1,20 @@
+{
+  "name": "films",
+  "version": "1.0.0",
+  "description": "",
+  "main": "DBconnection.js",
+  "scripts": {
+    "test": "node DBconnection.js",
+    "start": "node DBconnection.js",
+    "dev": "nodemon DBconnection.js",
+    "stop": "pkill --signal SIGINT DBconnection.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "pg": "^8.10.0"
+  }
+}
